@@ -4,7 +4,7 @@
 
 This repository is dedicated to the implementation of a comprehensive Fungible Token contract on the Flow blockchain. It includes a suite of transactions and scripts, organized into different sections, addressing various aspects of token management and interactions.
 
-### Core Contract Implementation
+
 
 #### Contract - FlowToken:
 
@@ -15,7 +15,7 @@ This repository is dedicated to the implementation of a comprehensive Fungible T
 **Code Insights:**
 - Highlights the deposit function within the Vault resource for secure token transfer and preventing double-counting.
 
-### Fundamental Transactions and Scripts
+
 
 #### Transactions:
 
@@ -39,7 +39,7 @@ This repository is dedicated to the implementation of a comprehensive Fungible T
 3. **TOTAL SUPPLY CHECK:**
    - Reports the total circulating supply of tokens.
 
-### Transaction and Script Enhancements
+
 
 - Improving SETUP transaction for remedying improperly set up vaults.
 - Enhancing READ BALANCE script for compatibility with non-standard vault setups.
@@ -48,7 +48,7 @@ This repository is dedicated to the implementation of a comprehensive Fungible T
 - Resource identifiers for verifying token types.
 - Resource capabilities for vault authenticity validation.
 
-### Contract and Transaction Augmentation
+
 
 **Admin Capabilities:**
 - Empowers the Admin to withdraw tokens from user vaults and deposit equivalent $FLOW tokens.
@@ -56,7 +56,7 @@ This repository is dedicated to the implementation of a comprehensive Fungible T
 **New Transaction:**
 - Admin Withdraw and Deposit: Admin-exclusive transaction for token management.
 
-### Advanced Scripting
+
 
 #### Scripts:
 
@@ -66,15 +66,15 @@ This repository is dedicated to the implementation of a comprehensive Fungible T
 2. **VAULT OVERVIEW:**
    - Provides a detailed overview of all recognized Fungible Token vaults in a user’s storage.
 
-### Swap Contract Integration
+
 
 #### Swap Contract:
 
 - Facilitates users to exchange $FLOW tokens for custom tokens, based on the duration since their last exchange.
 
-**Swap Mechanics:**
+
 - Utilizes a custom identity resource and the user's $FLOW vault reference to authenticate user identity and facilitate secure token swaps.
 
-## Project Conclusion
+##  Conclusion
 
 This repository exemplifies a comprehensive Fungible Token contract deployment on the Flow blockchain. It systematically presents functionalities, including token minting, vault setup, token transfer, and token swapping, ensuring enhanced comprehensibility and ease of navigation.
