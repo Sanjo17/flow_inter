@@ -1,6 +1,6 @@
 # Flow Fungible Token Project
 
-## Welcome to the Flow Fungible Token Project Repository
+
 
 This repository is dedicated to the implementation of a comprehensive Fungible Token contract on the Flow blockchain. It includes a suite of transactions and scripts, organized into different sections, addressing various aspects of token management and interactions.
 
